@@ -8,13 +8,13 @@ Code for Sniper-Gradient Descent Attack (S-GDA), an enhanced fault injection tec
  ```
 pip install -r requirements.txt
 ```
-4) The script run_script.py reads from cifar_attack_info.txt and runs "search_MGDA.py" with the correct input parameters with :
+4) The script 'run_script.py' reads from 'cifar_attack_info.txt' and runs 'search_MGDA.py' with the correct input parameters with :
 ```
 python3 run_script.py
 ```   
 (cifar_attack_info.txt has 'target class' and 'attack index' as two columns)
 
-5) 'search_MGDA.py' is the main attack script which writes the results to "results_MGDA.txt"
+5) 'search_MGDA.py' is the main attack script which writes the results to 'results_MGDA.txt'
 7) In 'results_MGDA.txt' each result entry is like this:
 ```   
 attack_idx 9490:-:- M_GDA: PA_ACC:91.0600 N_flip:2.0000 Diff_Locations:[(0, 58), (0, 60)] Learning Rate:0.5 Beta:0.5 Top_N:1500: ip file 0
